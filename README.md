@@ -14,8 +14,8 @@
 ## 環境設定安裝
 1. **安裝套件**：
 首先安裝需要的 Python 庫:
-```bash
-pip install feedparser requests
+  ```bash
+  pip install feedparser requests
 2. **設定 LINE Notify 權杖**：
 在程式碼中找到 YOUR_TOKEN，並將其替換成您的 LINE Notify 權杖。
 
@@ -24,7 +24,7 @@ pip install feedparser requests
 在 rss_feeds 列表中添加您要追蹤的 RSS Feed URL。
 2. **運行腳本**：
 使用以下命令來運行腳本：
-```bash
-python rss_line_notify.py
+  ```bash
+  python rss_line_notify.py
 3. **接收通知**：
 每當有新文章發布時，您將通過 LINE 收到通知。
